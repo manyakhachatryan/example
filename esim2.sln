@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esim2", "esim2\esim2.csproj", "{2391A028-220C-4959-BB49-5D488C6BCF7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{AF03A138-BAF0-4782-977E-48D247C10E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2391A028-220C-4959-BB49-5D488C6BCF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2391A028-220C-4959-BB49-5D488C6BCF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2391A028-220C-4959-BB49-5D488C6BCF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2391A028-220C-4959-BB49-5D488C6BCF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF03A138-BAF0-4782-977E-48D247C10E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF03A138-BAF0-4782-977E-48D247C10E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF03A138-BAF0-4782-977E-48D247C10E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF03A138-BAF0-4782-977E-48D247C10E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B5CE76F-8111-4257-9A24-A2E51CA62123}
+	EndGlobalSection
+EndGlobal

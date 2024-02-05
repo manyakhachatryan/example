@@ -1,0 +1,165 @@
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\appsettings.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.staticwebassets.runtime.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.exe
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.deps.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.runtimeconfig.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\esim2.pdb
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.AssemblyInfoInputs.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.AssemblyInfo.cs
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.csproj.CoreCompileInputs.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cs
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.esim2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.build.esim2.props
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.esim2.props
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.esim2.props
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\scopedcss\bundle\esim2.styles.css
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\scopedcss\projectbundle\esim2.bundle.scp.css
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\refint\esim2.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.pdb
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.genruntimeconfig.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\ref\esim2.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.DataSource.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.FontIcons.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.Recurrence.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.SvgIcons.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.Blazor.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Telerik.Zip.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.csproj.AssemblyReference.cache
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\obj\Debug\net7.0\esim2.csproj.CopyComplete
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\BusinessLayer.dll
+C:\Users\MSI\OneDrive\Рабочий стол\tests manya\esim2\esim2\bin\Debug\net7.0\BusinessLayer.pdb
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\appsettings.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.staticwebassets.runtime.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.exe
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.deps.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.runtimeconfig.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\esim2.pdb
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.DataSource.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.FontIcons.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.Recurrence.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.SvgIcons.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.Blazor.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\Telerik.Zip.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\BusinessLayer.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\bin\Debug\net7.0\BusinessLayer.pdb
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.csproj.AssemblyReference.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.AssemblyInfoInputs.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.AssemblyInfo.cs
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.csproj.CoreCompileInputs.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cs
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.esim2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.build.esim2.props
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.esim2.props
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.esim2.props
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\scopedcss\bundle\esim2.styles.css
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\scopedcss\projectbundle\esim2.bundle.scp.css
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.csproj.CopyComplete
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\refint\esim2.dll
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.pdb
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\esim2.genruntimeconfig.cache
+C:\Users\Innoverse User\Desktop\esim2\esim2\obj\Debug\net7.0\ref\esim2.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\appsettings.json
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.staticwebassets.runtime.json
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.exe
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.deps.json
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.runtimeconfig.json
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\esim2.pdb
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.DataSource.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.FontIcons.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.Recurrence.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.SvgIcons.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.Blazor.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\Telerik.Zip.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\BusinessLayer.dll
+C:\Users\Innoverse User\Desktop\example\esim2\bin\Debug\net7.0\BusinessLayer.pdb
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.csproj.AssemblyReference.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.AssemblyInfoInputs.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.AssemblyInfo.cs
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.csproj.CoreCompileInputs.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.RazorAssemblyInfo.cs
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets\msbuild.esim2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets\msbuild.build.esim2.props
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.esim2.props
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.esim2.props
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\scopedcss\bundle\esim2.styles.css
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\scopedcss\projectbundle\esim2.bundle.scp.css
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.csproj.CopyComplete
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.dll
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\refint\esim2.dll
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.pdb
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.genruntimeconfig.cache
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\ref\esim2.dll
