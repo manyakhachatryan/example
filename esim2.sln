@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esim2", "esim2\esim2.csproj", "{2391A028-220C-4959-BB49-5D488C6BCF7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "esim2", "esim2\esim2.csproj", "{2391A028-220C-4959-BB49-5D488C6BCF7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{AF03A138-BAF0-4782-977E-48D247C10E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{AF03A138-BAF0-4782-977E-48D247C10E38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

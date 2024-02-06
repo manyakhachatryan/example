@@ -34,3 +34,4 @@ C:\Users\Innoverse User\Desktop\example\BusinessLayer\obj\Debug\net7.0\BusinessL
 C:\Users\Innoverse User\Desktop\example\BusinessLayer\obj\Debug\net7.0\refint\BusinessLayer.dll
 C:\Users\Innoverse User\Desktop\example\BusinessLayer\obj\Debug\net7.0\BusinessLayer.pdb
 C:\Users\Innoverse User\Desktop\example\BusinessLayer\obj\Debug\net7.0\ref\BusinessLayer.dll
+C:\Users\Innoverse User\Desktop\example\BusinessLayer\obj\Debug\net7.0\BusinessLayer.sourcelink.json

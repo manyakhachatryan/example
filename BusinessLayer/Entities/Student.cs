@@ -13,15 +13,16 @@ namespace BusinessLayer.Entities
         string IErrMsg.ErrMsg { get; set; }
         public uint? RowCount { get; set; }
 
-        
+        public string? Name { get; set; }
 
         public Student() { }
-        public Student(int? id = null, string? firstName = null, string? lastName = null, int? uID = null)
+        public Student(int? id = null, string? firstName = null, string? lastName = null, int? uID = null, string? name = null)
         {
             this.ID = id;
             this.FirstName = firstName;
             this.LastName = lastName;
-            this.UniversityID = uID; 
+            this.UniversityID = uID;
+            this.Name =name; 
         }
 
 
@@ -100,7 +101,6 @@ namespace BusinessLayer.Entities
             }
         }
 
-
         public async Task<Student> EditAsync()
         {
             try
@@ -112,7 +112,7 @@ namespace BusinessLayer.Entities
                     new SPParam("LastName",this.LastName),
                     new SPParam("UniversityID",this.UniversityID),
                 };
-                Console.WriteLine(this.FirstName);
+       
                 Student item = await MySQLDataAccess<Student>.ExecuteSPItemAsync("edit_student", par);
 
                 return item;

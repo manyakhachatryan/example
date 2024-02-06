@@ -1,8 +1,7 @@
-﻿@page "/"
+﻿@page "/students/{UID:int?}"
 @using BusinessLayer.Entities
+
 @inherits StM
-
-
 
 <div>
     <div class="formsWrap" id="filterContainer">
@@ -37,7 +36,7 @@
                 <div class="col-md-2 col-12">
                     <div class="form-group">
                         <label >University</label>
-                        <TelerikComboBox Data="@univercities"
+                        <TelerikComboBox Data="@Universities"
                                          Placeholder="Select the university"
                                          TextField="Name" ValueField="ID"
                                          @bind-Value="@selectedValue">
@@ -45,44 +44,6 @@
                     </div>
                 </div>
 
-
-                @*
-                <div class="col-md-2 col-12">
-                    <div class="form-group">
-                        <label class="control-label" for="MinCreationDate" data-type="filter">Min cretation date</label>
-                        <TelerikDateTimePicker Format="dd/MM/yyyy HH:mm" @bind-Value="@MinCreationDate" Id="g-standard"
-                                               Class="form-control form-control-sm"></TelerikDateTimePicker>
-                    </div>
-                </div>
-                <div class="col-md-2 col-12">
-                    <div class="form-group">
-                        <label class="control-label" for="MaxCreationDate" data-type="filter">Max creation date</label>
-                        <TelerikDateTimePicker Format="dd/MM/yyyy HH:mm" @bind-Value="@MaxCreationDate" Id="g-standard"
-                                               Class="form-control form-control-sm"></TelerikDateTimePicker>
-                    </div>
-                </div>
-             
-                <div class="col-md-2 col-12">
-                    <div class="form-group">
-                        <label class="control-label" for="ReceiptNumber">Receipt number</label>
-                        <TelerikTextBox @bind-Value="ReceiptNumber">
-                        </TelerikTextBox>
-                    </div>
-                </div>
-                <div class="col-md-2 col-12">
-                    <div class="form-group">
-                        <label class="control-label" for="PaymentID">Payment ID</label>
-                        <TelerikTextBox @bind-Value="PaymentID">
-                        </TelerikTextBox>
-                    </div>
-                </div>
-                <div class="col-md-2 col-12">
-                    <div class="form-group">
-                        <label class="control-label" for="Reference">Reference</label>
-                        <TelerikTextBox @bind-Value="Reference">
-                        </TelerikTextBox>
-                    </div>
-                </div> *@
             </div>
 
             <div class="row">
@@ -98,24 +59,6 @@
         </div>
     </div>
 
-
- @*     <TelerikComboBox Data="@myComboData" TextField="MyTextField" ValueField="MyValueField" @bind-Value="selectedValue"
-                     Placeholder="Select an item..." ClearButton="true" Filterable="true">
-    </TelerikComboBox> *@
-
-    @code {
-       // IEnumerable<MyDdlModel> myComboData = Enumerable.Range(1, 20).Select(x => new MyDdlModel { MyTextField = "item " + x, MyValueField = x });
-       // int selectedValue { get; set; }
-        //in a real case, the model is usually in a separate file
-        //the model type and value field type must be provided to the dropdpownlist
-        // public class MyDdlModel
-        // {
-         //    public int MyValueField { get; set; }
-        //     public string MyTextField { get; set; }
-        // }
-
-    } 
-
     <Telerik.Blazor.Components.TelerikGrid TItem="@Student"
                                            Sortable="true" 
                                            Pageable="true"
@@ -125,16 +68,35 @@
                                            OnCreate="@CreateHandler"
                                            OnDelete="@DeleteHandler"
                                            OnUpdate="@UpdateHandler"
-                                           PageSize="2"
+                                           PageSize="5"
                                            >
         <GridToolBarTemplate>
             <GridCommandButton Command="Add" >Add Student</GridCommandButton>
         </GridToolBarTemplate>
         <GridColumns>
-            <GridColumn Field="@nameof(Student.ID)" Filterable="true" Editable="false"></GridColumn>
-            <GridColumn Field="@nameof(Student.FirstName)" Filterable="true"></GridColumn>
-            <GridColumn Field="@nameof(Student.LastName)" Filterable="true"></GridColumn>
-            <GridColumn Field="@nameof(Student.UniversityID)" Filterable="true"></GridColumn>
+            <GridColumn Title="ID"  Field="@nameof(Student.ID)" Filterable="true" Editable="false"></GridColumn>
+            <GridColumn Title="First Name" Field="@nameof(Student.FirstName)" Filterable="true"></GridColumn>
+            <GridColumn Title="Last Name" Field="@nameof(Student.LastName)" Filterable="true"></GridColumn>
+
+            <GridColumn   Title="University" Field="@nameof(UniversityID)" Filterable="true">
+                <Template>
+                    @{
+                        var item = context as Student;  
+                    } 
+                    @item.Name
+                </Template>
+                <EditorTemplate>
+                    @{
+                        var item = context as Student;
+                        <TelerikComboBox Data="@Universities"
+                                         Placeholder="Select..."
+                                         TextField="Name" ValueField="ID"
+                                         @bind-Value="@item.UniversityID">
+                        </TelerikComboBox>
+                    }
+                </EditorTemplate>
+            </GridColumn>
+
             <GridCommandColumn>
                 <GridCommandButton Command="Save" Icon="@SvgIcon.Save" ShowInEdit="true">Update</GridCommandButton>
                 <GridCommandButton Command="Edit" Icon="@SvgIcon.Pencil">Edit</GridCommandButton>
@@ -143,15 +105,9 @@
             </GridCommandColumn>
         </GridColumns>
     </Telerik.Blazor.Components.TelerikGrid>
-
-
-
 </div>
 
 
 
 
 
-@code {
-
-}

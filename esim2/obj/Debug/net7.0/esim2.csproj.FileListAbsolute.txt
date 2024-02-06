@@ -163,3 +163,4 @@ C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\refint\esim2.dll
 C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.pdb
 C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.genruntimeconfig.cache
 C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\ref\esim2.dll
+C:\Users\Innoverse User\Desktop\example\esim2\obj\Debug\net7.0\esim2.sourcelink.json

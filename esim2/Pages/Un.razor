@@ -1,0 +1,96 @@
+﻿@page "/universities"
+@using BusinessLayer.Entities
+@inherits UnM
+@inject NavigationManager NavigationManager
+<div>
+    <div class="formsWrap" id="filterContainer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 col-4">
+                    <div class="form-group">
+                        <label class="control-label">University ID</label>
+                        <TelerikNumericTextBox @bind-Value="@ID"></TelerikNumericTextBox>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-4">
+                    <div class="form-group">
+                        <label class="control-label">University Name</label>
+                        <TelerikTextBox @bind-Value="@Name">
+                        </TelerikTextBox>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-4">
+                    <div class="form-group">
+                        <label class="control-label">Country</label>
+                        <TelerikTextBox @bind-Value="@Country">
+                        </TelerikTextBox>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 col-12">
+                    <div class="form-group">
+                        <label>City</label>
+                        <TelerikTextBox @bind-Value="@City">
+                        </TelerikTextBox>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="formsWrapBtns">
+                        <div class="formsWrapBtnsIn">
+                            <button title="Որոնել" type="button" @onclick="RebindGrid" class="btn btn-sm btn-info">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <Telerik.Blazor.Components.TelerikGrid TItem="@University"
+                                           Sortable="true"
+                                           @ref="@Grid"
+                                           OnRead="@ReadItems"
+                                           OnCreate="@CreateHandler"
+                                           EditMode="@GridEditMode.Inline"
+                                           OnDelete="@DeleteHandler"
+                                           OnUpdate="@UpdateHandler"
+                                           Pageable="true"
+                                           PageSize="2">
+        <GridToolBarTemplate>
+            <GridCommandButton Command="Add">Add University</GridCommandButton>
+        </GridToolBarTemplate>
+        <GridColumns>
+            <GridColumn Title="ID" Field="@nameof(University.ID)" Filterable="true" Editable="false"></GridColumn>
+            <GridColumn Title="Name" Field="@nameof(University.Name)" Filterable="true"></GridColumn>
+            <GridColumn Title="Country" Field="@nameof(University.Country)" Filterable="true"></GridColumn>
+
+            <GridColumn Title="City" Field="@nameof(University.City)" Filterable="true">
+
+            </GridColumn>
+
+            <GridCommandColumn>
+                           <GridCommandButton Command="Save" Icon="@SvgIcon.Save" ShowInEdit="true">Update</GridCommandButton> 
+                 <GridCommandButton Command="Edit" Icon="@SvgIcon.Pencil">Edit</GridCommandButton> 
+               <GridCommandButton Command="Delete" Icon="@SvgIcon.Trash">Delete</GridCommandButton> 
+                <GridCommandButton Command="Cancel" Icon="@SvgIcon.Cancel" ShowInEdit="true">Cancel</GridCommandButton>
+
+                <GridCommandButton Class="btn-kendo" OnClick="@((args) => RedirectToDatebyPlayer((args.Item as University), NavigationManager  as  NavigationManager , (args.Item as University).ID))">Students</GridCommandButton>
+          
+            </GridCommandColumn>
+        </GridColumns>
+
+
+    </Telerik.Blazor.Components.TelerikGrid>
+
+</div>
+
+
+
