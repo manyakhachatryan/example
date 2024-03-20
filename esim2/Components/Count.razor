@@ -1,0 +1,10 @@
+﻿ @using BusinessLayer.Entities
+
+<p>Students Count: @Value.StudentCount</p>
+<p>Students average age: @Value.AverageAge</p>
+<p>Students average grade: @Value.AverageGrade</p>
+
+@code {
+    [Parameter]
+    public Student Value { get; set; }
+}

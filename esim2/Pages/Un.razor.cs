@@ -10,7 +10,10 @@ namespace esim2.Pages
         protected int? ID { get; set; }
         protected string Name { get; set; }
         protected string Country { get; set; }
-  
+        protected University? itemForDeleted { get; set; }
+        protected bool WindowIsVisible { get; set; }
+        [Inject]
+        public NavigationManager _navig { get; set; }
         protected string? City { get; set; }
 
         protected async Task ReadItems(GridReadEventArgs args)
@@ -45,9 +48,23 @@ namespace esim2.Pages
             Grid.Rebind();
         }
 
-        protected void RedirectToDatebyPlayer(University item, NavigationManager navigationManager,  int? ID = null)
+        protected void RedirectToDatebyPlayer(University item, int? ID = null)
         {
-            navigationManager.NavigateTo($"/students/{item.ID}");
+            _navig.NavigateTo($"/students/{item.ID}");
+        }
+
+        protected void HandleDeletePopUp(GridCommandEventArgs args)
+        {
+            WindowIsVisible = true;
+            itemForDeleted = (University)args.Item;
+        }
+
+        protected async Task DeleteUniversity()
+        {
+
+            await itemForDeleted.DeleteAsync();
+            Grid.Rebind();
+            WindowIsVisible = false;
         }
     }
 }

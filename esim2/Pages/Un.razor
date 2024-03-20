@@ -1,7 +1,8 @@
 ﻿@page "/universities"
 @using BusinessLayer.Entities
+@using esim2.Components
 @inherits UnM
-@inject NavigationManager NavigationManager
+
 <div>
     <div class="formsWrap" id="filterContainer">
         <div class="container-fluid">
@@ -53,14 +54,14 @@
     </div>
 
 
+    <Delete OnConfirm="@DeleteUniversity" WindowIsVisible="@WindowIsVisible" Text="@itemForDeleted?.Name"></Delete>
 
     <Telerik.Blazor.Components.TelerikGrid TItem="@University"
                                            Sortable="true"
                                            @ref="@Grid"
                                            OnRead="@ReadItems"
                                            OnCreate="@CreateHandler"
-                                           EditMode="@GridEditMode.Inline"
-                                           OnDelete="@DeleteHandler"
+                                           EditMode="@GridEditMode.Popup"
                                            OnUpdate="@UpdateHandler"
                                            Pageable="true"
                                            PageSize="2">
@@ -77,12 +78,12 @@
             </GridColumn>
 
             <GridCommandColumn>
-                           <GridCommandButton Command="Save" Icon="@SvgIcon.Save" ShowInEdit="true">Update</GridCommandButton> 
-                 <GridCommandButton Command="Edit" Icon="@SvgIcon.Pencil">Edit</GridCommandButton> 
-               <GridCommandButton Command="Delete" Icon="@SvgIcon.Trash">Delete</GridCommandButton> 
+                <GridCommandButton Command="Save" Icon="@SvgIcon.Save" ShowInEdit="true">Update</GridCommandButton> 
+                <GridCommandButton Command="Edit" Icon="@SvgIcon.Pencil">Edit</GridCommandButton>
+                <GridCommandButton Command="Delete" Icon="@SvgIcon.Trash" OnClick="@HandleDeletePopUp">Delete</GridCommandButton>
                 <GridCommandButton Command="Cancel" Icon="@SvgIcon.Cancel" ShowInEdit="true">Cancel</GridCommandButton>
 
-                <GridCommandButton Class="btn-kendo" OnClick="@((args) => RedirectToDatebyPlayer((args.Item as University), NavigationManager  as  NavigationManager , (args.Item as University).ID))">Students</GridCommandButton>
+                <GridCommandButton Class="btn-kendo" OnClick="@((args) => RedirectToDatebyPlayer((args.Item as University),  (args.Item as University).ID))">Students</GridCommandButton>
           
             </GridCommandColumn>
         </GridColumns>

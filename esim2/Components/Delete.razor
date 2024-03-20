@@ -1,0 +1,37 @@
+﻿
+<TelerikWindow @bind-Visible="@WindowIsVisible">
+    <WindowTitle>
+        Are You Sure? @Text
+    </WindowTitle>
+    <WindowContent>
+        <TelerikButton OnClick="@RaiseConfirm">YES</TelerikButton>
+        <TelerikButton OnClick="@RaiseCancel">NO</TelerikButton>
+    </WindowContent>
+    <WindowActions>
+        <WindowAction Name="Close" />
+    </WindowActions>
+</TelerikWindow>
+
+
+
+@code {
+
+    [Parameter]
+    public bool WindowIsVisible { get; set; }
+
+    [Parameter]
+    public string Text { get; set; }
+
+    [Parameter] public EventCallback OnConfirm { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+    async void RaiseConfirm()
+    {
+        WindowIsVisible = false;
+        await OnConfirm.InvokeAsync(null);
+    }
+    async void RaiseCancel()
+    {
+        await OnCancel.InvokeAsync(null);
+        WindowIsVisible = false;
+    }
+}

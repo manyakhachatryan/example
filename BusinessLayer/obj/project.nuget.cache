@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uiVpGjg374DVmzVzNZ+htfON1aylXYTKG4t7QIFNb4j+LynmIZoIEPfpfk2+OqltvC/PUIeVyLOSKtFb7vSmLg==",
+  "dgSpecHash": "Cr0IfG7IzM8wVhy5w8T+c5lY7w1xw20oReJ2RPL83GN2vZT5uy98G4fCaYrMZSAYEXqxL/J5DI5z9m3uDMCMoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Innoverse User\\Desktop\\example\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Innoverse User\\.nuget\\packages\\andotnet.mariadb\\6.0.0\\andotnet.mariadb.6.0.0.nupkg.sha512",
+    "C:\\Users\\Innoverse User\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.1\\microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",

@@ -1,10 +1,5 @@
 ﻿using DataAccessLayer.DBTools;
 using DataAccessLayer.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BusinessLayer.Entities
 {
@@ -29,7 +24,6 @@ namespace BusinessLayer.Entities
 
         public async Task<List<University>> GetListAsync(int? id = null, string? name = null, string? country = null, string? city = null, int? startIndex = 0, int? viewCount = 0)
         {
-
             try
             {
                 List<SPParam> par = new List<SPParam>
@@ -56,7 +50,6 @@ namespace BusinessLayer.Entities
             {
             }
         }
-
 
         public async Task<University> AddAsync()
         {
@@ -129,8 +122,6 @@ namespace BusinessLayer.Entities
             finally
             {
             }
-        }
-
-       
+        }  
     }
 }

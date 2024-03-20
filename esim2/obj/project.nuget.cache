@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gtJpUGoX/V69b9fEqW5rM6Ah7WyCz/qJhG04D4SntPMYyEToAAtk0nKKLWTiwetqgyYjxE0hYO4DtZJhRgRu2A==",
+  "dgSpecHash": "27U94jmqQUYy+vWY04laL40qcdtfYPGljxcvc4mbBxamc3Y0qSbQDYvqn0CtqnooOD3c/FvCd0usOv10+Jqemw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Innoverse User\\Desktop\\example\\esim2\\esim2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Innoverse User\\.nuget\\packages\\andotnet.mariadb\\6.0.0\\andotnet.mariadb.6.0.0.nupkg.sha512",
+    "C:\\Users\\Innoverse User\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.21\\microsoft.aspnetcore.authorization.3.1.21.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.21\\microsoft.aspnetcore.components.3.1.21.nupkg.sha512",
     "C:\\Users\\Innoverse User\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.21\\microsoft.aspnetcore.components.analyzers.3.1.21.nupkg.sha512",

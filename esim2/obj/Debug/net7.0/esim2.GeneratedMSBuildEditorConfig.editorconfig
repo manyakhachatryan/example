@@ -22,6 +22,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Innoverse User/Desktop/example/esim2/Components/Count.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Innoverse User/Desktop/example/esim2/Components/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Innoverse User/Desktop/example/esim2/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Innoverse User/Desktop/example/esim2/Pages/FluentValidationValidator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmx1ZW50VmFsaWRhdGlvblZhbGlkYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Innoverse User/Desktop/example/esim2/Pages/St.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
